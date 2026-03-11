@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Expense Macros",
+    "slug": "expense-macros",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "scheme": "expense-macros",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0A0F"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kevenhypn.expensemacros",
+      "buildNumber": "1"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0A0A0F",
+        "foregroundImage": "./assets/adaptive-icon.png"
+      },
+      "package": "com.kevenhypn.expensemacros",
+      "versionCode": 1
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-asset",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "icon": "./assets/icon.png",
+    "extra": {
+      "privacyPolicyUrl": "https://kevenhypn.github.io/expense-macros/privacy.html",
+      "supportUrl": "https://kevenhypn.github.io/expense-macros/support.html"
+    }
+  }
+}
